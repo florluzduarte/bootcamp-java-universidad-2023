@@ -1,3 +1,0 @@
-carlos 1234
-luis 3456
-flor 5678

@@ -1,2 +1,0 @@
-mastercard
-Archivo tarjetas.txt

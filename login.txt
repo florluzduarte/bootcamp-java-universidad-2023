@@ -1,2 +1,0 @@
-archivo login
-ajustes del archivo login
