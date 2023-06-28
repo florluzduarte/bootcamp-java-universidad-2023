@@ -1,0 +1,32 @@
+/*
+    NO
+    - sasss
+    - less
+    - scss
+*/
+/*regla css*/
+body {
+  background-color: #6a5353;
+  font-family: "Ubuntu", sans-serif;
+  /* font-size: 10px; */
+}
+/*selector de etiqueta*/
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  /* font-size: 3em; */
+  /*tamaño de fuente*/
+}
+
+/*selector por id*/
+#miparrafo {
+  color: aqua;
+}
+/*selector por clase*/
+.miparrafo {
+  color: rgb(50, 139, 71);
+  /*16px tamaño por defecto */
+  font-size: 35px;
+}
+/*inline > porId > etiqueta > class*/
