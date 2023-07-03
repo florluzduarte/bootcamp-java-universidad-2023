@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+
+/*defino las variables base*/
+:root {
+  font-size: 10px; /*16px*/
+  /* --primary-color: hsl(289, 48%, 76%); */
+  --secoundary-color: hsl(289, 48%, 76%);
+  --white: #ffffff;
+  --black: hsl(289, 48%, 76%);
+  --green: #008000;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0; /*esto elimina a TODOS*/
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  background-color: var(--primary-color);
+}
+
+.sec1 {
+  border: 1px solid black;
+  padding: 2vw 5vh;
+}
+
+.sec1 img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.sec1 h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.sec1 p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  display: inline-block;
+  width: 20vw;
+  height: 10vh;
+  border: 0;
+  border-radius: 10%;
+  font-size: 1.5rem;
+}
+.btn:hover {
+  font-size: 1.8rem;
+  background-color: black;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-green {
+  background-color: var(--green);
+}
+
+.btn-container {
+  padding: 1vh;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sec1 .btn {
+  margin: auto;
+}
+
+.menu {
+  background-color: aqua;
+}
+
+.menu ul {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  height: 8vh;
+  width: 15vw;
+  border: 1px solid green;
+}
+
+.menu li a {
+  text-decoration: none;
+}
